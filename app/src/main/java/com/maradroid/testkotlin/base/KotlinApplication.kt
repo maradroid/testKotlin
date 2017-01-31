@@ -8,7 +8,7 @@ import android.app.Application
 class KotlinApplication : Application() {
 
     companion object {
-        lateinit var component : AppComponent
+       lateinit var component : AppComponent
     }
 
     override fun onCreate() {
