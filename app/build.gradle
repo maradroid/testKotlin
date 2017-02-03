@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 25
@@ -62,6 +63,8 @@ dependencies {
     //rxjava
     compile 'io.reactivex.rxjava2:rxjava:2.0.4'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    compile 'com.android.support:recyclerview-v7:25.1.1'
 }
 repositories {
     mavenCentral()
